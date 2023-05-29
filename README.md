@@ -4,9 +4,10 @@ Projeto criado em React JS
 
 ## Para utilizá-lo:
 
-Faça o clone do diretório, a seguir abra o promp de comandos e digite
+Faça o clone do diretório, a seguir abra o promp de comandos e digite:
+### npm install
 
-### Para Executrar
+## Para Executrar
 
 no promp de comandos 
 

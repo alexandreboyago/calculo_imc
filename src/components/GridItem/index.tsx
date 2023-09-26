@@ -12,7 +12,15 @@ export const GridItem = ({item} : Props) => {
         <div className={styles.main} style={{backgroundColor: item.color}}>
            <div className={styles.gridIcon}>
             <img src={item.icon === 'up' ? upImage : downImage} width="30"/> 
-            
+           </div>
+           {item.yourImc &&
+             <div className={styles.yourImc}>Seu IMC é: {item.yourImc.toFixed(2)}</div>
+           }
+           <div className={styles.gridTitle}>{item.title}</div>
+           <div className={styles.gridInfo}>
+              <>
+               IMC esta entre <strong>{item.imc[0]}</strong> e <strong>{item.imc[1]}</strong>  
+              </>
            </div>
         </div>
     )
